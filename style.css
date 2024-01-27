@@ -1,0 +1,185 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey: rgb(240, 238, 238);
+}
+
+#home {
+  background-image: url(./Images/bg_1.jpg);
+  background-size: cover;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.237);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.fa-play {
+  color: white;
+  font-size: 25px !important;
+  display: block;
+  margin: auto;
+}
+
+/* cards  */
+#cards {
+  background-color: var(--grey);
+  /* min-height: 400px; */
+}
+
+.card {
+  position: relative;
+}
+
+.chvr {
+  position: absolute;
+  left: 70%;
+  bottom: -17px;
+  display: none;
+}
+
+.card:hover .chvr {
+  display: block;
+}
+
+#cont {
+  transform: translate(0px, -60px);
+}
+
+@media screen and (max-width: 770px)  {
+  /* transform: translate(0px, 0px); */
+}
+
+
+/* about */
+
+@media screen and (max-width: 766px)  {
+#about {
+  margin-top: 0px;
+  padding-top: 0px;
+ }
+}
+/* studio  */
+#about img {
+  width: 430px;
+  height: 580px;
+}
+
+/* our team  */
+#ic {
+  display: flex;
+}
+
+#ic li {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin-left: 10px;
+}
+
+#ic li a {
+  display: block;
+  margin: auto;
+}
+
+.crdbg {
+  background-color: #1d2736;
+}
+
+.bgg {
+  background-image: url(./Images/bg_4.jpg);
+  /* height: 100vh; */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bgc {
+  background-color: rgba(12, 8, 241, 0.479);
+
+  width: 100%;
+}
+
+/* portfolio */
+#portfolio {
+  min-height: 1000px;
+}
+
+/* frequent question */
+#question img {
+  max-width: 100%;
+  height: 400px;
+}
+
+#question button {
+  width: 100%;
+}
+
+#question button .fa {
+  float: right;
+}
+
+#question .card {
+  border: none;
+}
+
+#question .crd {
+  box-shadow: 3px 0.5px 4px lightgray;
+}
+
+.h {
+  display: flex;
+  text-align: left;
+}
+
+.h:focus {
+  background-color: rgb(0, 119, 255);
+  outline: none;
+  color: white;
+}
+
+/* blogs  */
+#blog .cimg {
+  width: 100px;
+  height: 255px;
+}
+
+#blog .card {
+  overflow: visible;
+}
+
+#blog .card-body {
+  top: 90%;
+  left: 20px;
+}
+
+/* last  */
+#last {
+  height: 200px;
+  background-image: url(./Images/bg_4.jpg);
+  background-size: cover;
+}
+
+/* footer  */
+#foot ul .fai {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  border-radius: 50%;
+}
+
+#foot ul .fai a {
+  display: block;
+  margin: auto;
+}
+
+#foot .fas {
+  display: flex;
+}
